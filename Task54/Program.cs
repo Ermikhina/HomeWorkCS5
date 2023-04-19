@@ -54,5 +54,5 @@ void CreateMatrixSortedStrings(int[,] matrix)
     int[,] matr = CreateMatrixRndInt(5, 4, 0, 100);
     PrintMatrix(matr);
     CreateMatrixSortedStrings(matr);
-    Console.WriteLine("Sorted strings:");
+    Console.WriteLine("Matrix with sorted strings:");
     PrintMatrix(matr);
